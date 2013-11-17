@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -47,7 +46,7 @@ app.post('/signup', user.signup);
 app.get('/signout', user.signout);
 
 var groupdao = require("./backend/Group"),
-    groupview = require("./views/Group");
+    groupview = require("./views/group");
 app.post('/group', groupdao.create);
 app.get('/group/:id', groupview.view);
 
