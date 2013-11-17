@@ -1,0 +1,28 @@
+
+.box{
+    position: relative;
+}
+
+.wikis{
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.wikis li{
+    margin: 2px 2px 0 2px;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.article{
+    width: 830px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    min-height: 400px;
+    background-color: #fefefe;
+    bottom:2px;
+}

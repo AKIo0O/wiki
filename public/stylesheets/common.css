@@ -1,0 +1,156 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.nav{
+    height: 40px;
+    border-bottom: 1px solid #e6e6e6;
+    background: #f5f5f5;
+}
+
+.nav ul{
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav li{
+    float: left;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+.nav li:hover{
+    background-color: #fff;
+}
+
+#start{
+    position: absolute;
+    top: 41px;
+    width: 100%;
+    bottom:40px;
+    border-top: 1px solid #f5f5f5;
+    background:rgb(244,244,244);
+}
+
+#start .form{
+    width: 400px;
+    text-align: center;
+    height: 40px;
+    line-height: 28px;
+    position: absolute;
+    margin: -60px 0 0 -200px;
+    left: 50%;
+    top: 50%;
+}
+
+#start input{
+    -webkit-appearance: textfield;
+    padding: 1px;
+    background-color: white;
+    border: 2px inset;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    margin: 0em;
+    font: -webkit-small-control;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+
+.block{
+    width: 980px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 42px;
+    bottom:2px;
+    left: 50%;
+    margin-left: -490px;
+    border:1px solid #e8e8e8;
+}
+
+.block .signin{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    background-color: #eee;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -120px;
+    line-height: 40px;
+    border:1px solid #e8e8e8;
+    box-shadow: 0px 0px 27px 3px #fff;
+    border-radius: 2px;
+}
+.signin fieldset:first-child{
+    margin-top: 40px;
+}
+
+.signin fieldset{
+    border:none;
+    color: #666;
+}
+
+.signin label{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.signin input{
+    padding: 2px;
+    height: 20px;
+    width: 180px;
+}
+
+nav .logout{
+    float: right;
+    color: #666;
+}
+
+nav .logout a{
+    color: #666;
+}
+
+nav .email a{
+    color: #666;
+}
+nav  a{
+    line-height: 40px;
+    display: inline-block;
+}
+
+
+.box{
+    width: 980px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    margin-top: 2px;
+    min-height: 600px;
+    border:1px solid #e6e6e6;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
